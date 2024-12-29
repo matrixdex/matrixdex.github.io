@@ -1,9 +1,9 @@
 body {
   background-color: black;
-  color: rgb(220, 220, 220)
+  color: rgb(220, 220, 220);
 }
 h1 {
-  color: rgb(240, 240, 240); font-family:consolas; text-align: center;
+  color: rgb(240, 240, 240); font-family:monospace; text-align: center; font-size: 2.2em;
 }
 p,ul,ol {
   color: rgb(220, 220, 220); font-family:arial; font-size: 18px; letter-spacing: 0.05em;
@@ -12,7 +12,7 @@ table {
   color: rgb(220, 220, 220); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
 }
 h3 {
-  color: white; bottom:0; font-family:consolas; width: 100%; text-align: center;
+  color: white; bottom:0; font-family: monospace; width: 100%; text-align: center; font-size: 1.2em;
 }
 a {
   color: #00ff41;
@@ -20,4 +20,24 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+#myInput {
+
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #00ff41; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  background-color: black;
+  font-family: monospace;
+  color: #00ff41;
+}
+.indexlink {
+  font-family: monospace;
+  font-size: 1.2em;
+}
+::placeholder {
+  color: rgb(220, 220, 220);
+  opacity: 1; /* Firefox */
+  font-family: monospace;
 }
